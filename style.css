@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+body{
+    font-family: 'Changa', sans-serif;
+    background-color: aliceblue;
+    color: #000000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+
+.navbar-nav li a{
+    color: rgb(0, 0, 0);
+}
+.navbar-nav li a:hover{
+    color: rgba(186, 79, 157, 0.467);
+}
+.right-nav a{
+
+}
+.title{
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 20px;
+}
+
+ .form-main {
+ 
+     margin: auto;
+     display: flex;
+     flex-direction: column; /* change flex-direction */
+      /* add justify-content */
+
+      /* increase height */
+     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.075);
+     padding: 30px;
+     border-radius: 20px;
+     background-color: aliceblue;
+ }
+
+ .hr-1{
+    margin-top: 20px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.141);
+ }
+ .h1-tasklist{
+    padding-top: 10px;
+    font-size:2.5rem;      
+    background-image: linear-gradient(100deg, #000000, #fd7474);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+ }
+h1{
+    padding-top: 10px;
+    font-size:2.5rem;      
+    background-image: linear-gradient(100deg, #000000, #fd7474);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-weight: 1000;
+ }
+
+
+li{
+    font-size: 24px;
+    list-style-type: none;
+}
+.CompletedList{
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column; /* change flex-direction */
+    justify-content: center; /* add justify-content */
+    align-items: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.075);
+    padding: 30px;
+    border-radius: 20px;
+    background-color: aliceblue;
+
+
+}
+.Goals{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin-right: 30px;
+}
+.wrapper {
+width: 100%;
+margin: 30px auto;
+color:rgb(0, 0, 0);
+text-align:center;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+}
+
+#seconds, #tens{
+  font-size:2em;
+}
+
+.WatchBtn{
+background:base-color;
+color:blawhite;
+border: solid 1px black;
+text-decoration:none;
+font-size:1.2em;
+padding:18px 10px;
+width:180px;
+margin: 10px;
+outline: none;
+}
+del{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    
+}
+del:hover{
+    font-size: 30px;
+    background-image: linear-gradient(100deg,  #fd7474, #000000);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;  
+}
+
+
+
