@@ -138,6 +138,24 @@ del:hover{
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;  
 }
+@media only screen and (min-width:321px) and (max-width:768px){
+    .h1-tasklist{
+        padding-top: 10px;
+        font-size:1.5rem;      
+        background-image: linear-gradient(100deg, #000000, #fd7474);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
+     }
+     .h2-tasklist{
+        font-size:1.5rem;
+        text-align: center;
+     }
+
+}
+
 
 
 
